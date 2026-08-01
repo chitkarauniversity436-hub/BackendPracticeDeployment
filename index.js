@@ -11,6 +11,12 @@ app.get('/fuckit', (req, res) => {
   res.send('Stay Hard!')
 })
 
+
+app.get('/name',(req,res)=>{
+   res.send('My name is Tarun');
+})
+
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`)
 })
+
